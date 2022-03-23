@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<form action="https://lt.wikipedia.org/" method="get">
+    <label for="vardas">vardas</label>
+    <input id="vardas" type="text" name="vardas" placeholder="vardas" required><br><br>
+
+    <label for="pavarde">pavarde</label>
+    <input id="pavarde" type="text" name="pavarde" placeholder="pavarde" required><br><br>
+
+    <label for="email">email</label>
+    <input id="email" type="email" name="email" placeholder="email" required><br><br>
+
+    <label for="city">city</label>
+    <select name="city" id="city" required>
+        <option value selected disabled>Nepasirinktas</option>
+        <option value="vilnius">vilnius</option>
+        <option value="kaunas">kaunas</option>
+        <option value="kelme">kelme</option>
+        <option value="sls">sls</option>
+    </select>
+    <br><br>
+
+    <p>Koks tavo megstamas gerimas?</p>
+
+    <label for="vanduo">vanduo</label>
+    <input id="vanduo" type="radio" name="drink" value="vanduo" required>
+
+    <label for="alus">alus</label>
+    <input id="alus" type="radio" name="drink" value="vanduo" required>
+
+    <label for="arbata">arbata</label>
+    <input id="arbata" type="radio" name="drink" value="vanduo" required>
+
+    <label for="vodke">vodke</label>
+    <input id="vodke" type="radio" name="drink" value="vanduo" required> <br><br>
+    <input type="submit">
+
+        <p>AR sutinki duoti man visa savo turta?</p>
+        <label for="sutinka">sutinka</label>
+        <input id="sutinku" name="turtas" value="sutinka" type="checkbox"> <br><br>
+        <input type="submit">
+
+    
+</form>
+</body>
+</html>
